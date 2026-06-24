@@ -1,0 +1,13 @@
+# กำหนดค่าเริ่มต้นของเซลเซียส และค่าสิ้นสุดที่ต้องการคำนวณ
+celsius = 0
+max_celsius = 10
+
+print("องศาเซลเซียส (C) \t องศาฟาเรนไฮต์ (F)")
+print("---------------------------------------")
+
+# ใช้ while loop ในการวนลูปคำนวณ
+while celsius <= max_celsius:
+    fahrenheit = (celsius * 1.8) + 32
+    print(f"{celsius} °C \t\t\t {fahrenheit:.1f} °F")
+    
+    celsius += 1  # เพิ่มค่าเซลเซียสทีละ 1
